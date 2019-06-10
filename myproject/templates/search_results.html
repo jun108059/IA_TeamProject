@@ -2,9 +2,9 @@
 <h1>Search Results</h1>
 
 <ul>
-  {% for city in object_list %}
+  {% for search in object_list %}
     <li>
-      {{ city.name }}, {{ city.state }}
+      {{ search.name }}, {{ search.state }}
     </li>
   {% endfor %}
 </ul>
