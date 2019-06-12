@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="124dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/buttonback"
+        android:text="쇼핑 시작"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<Button-->
+        <!--android:id="@+id/list"-->
+        <!--android:layout_width="124dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginBottom="33dp"-->
+        <!--android:text="지난 쇼핑 목록"-->
+        <!--android:background="@drawable/buttonback"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/logout"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/start" />-->
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="124dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="198dp"
+        android:text="Logout"
+        android:background="@drawable/buttonback"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
