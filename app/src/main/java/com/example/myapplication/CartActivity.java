@@ -68,9 +68,7 @@ public class CartActivity extends AppCompatActivity {
                     try {
                         String data = socketIn.readLine();
                         list.setText(data);
-                        //Message msg = myHandler.obtainMessage();
-                        //msg.obj = data;
-                        //myHandler.sendMessage(msg);
+                        
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
