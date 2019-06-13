@@ -96,24 +96,3 @@ public class CartActivity extends AppCompatActivity {
         });
     }
 }
-
-//    public void notificationManager(){
-//        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-//        Intent intent = new Intent(this, CartActivity.class); //다른 엑티비티로 해보고 저 내용들을 출력해봐
-//        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent,PendingIntent.FLAG_UPDATE_CURRENT); //찾아보고
-//        Notification.Builder builder = new Notification.Builder(this);
-//        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(),android.R.drawable.ic_menu_camera));
-//        builder.setSmallIcon(android.R.drawable.ic_menu_camera);
-//        builder.setTicker("사진이 등록되었습니다.");
-//        builder.setContentTitle("사진이 등록되었습니다.");
-//        builder.setContentText("사진을 확인하십시오!");
-//        builder.setWhen(System.currentTimeMillis());
-//        builder.setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE);
-//        builder.setContentIntent(pendingIntent);
-//        builder.setAutoCancel(true);
-//        builder.setNumber(999);
-//
-//        notificationManager.notify(0, builder.build());
-//    }
-
-
