@@ -1,5 +1,7 @@
 python-version: 3.6.7
+
 Django: 2.2.2
+
 Windows10
 
 
@@ -27,8 +29,6 @@ HUFS ICE 인터넷 응용(3-1)
 ## XProject PPT
 
 ![screensh](./img/K-041.png)
-
-![screensh](./img/K-042.png)
 
 ![screensh](./img/K-043.png)
 
