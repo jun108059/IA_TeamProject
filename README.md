@@ -5,9 +5,12 @@ Windows10
 
 # IA_TeamProject
 
+## 사용자 지향 IoT 쇼핑카트
+## Line Tracing 시스템 (IS_LTS)
+
 HUFS ICE 인터넷 응용(3-1)
 
-Team Project
+2Team - Shopporter
 
 박영준 송진호 김현석 김효민
 
