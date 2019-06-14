@@ -30,7 +30,7 @@ HUFS ICE 인터넷 응용(3-1)
 
 ![screensh](./img/K-041.png)
 
-![screensh](./img/K-043.png)
+![screensh](./img/K-042.png)
 
 ![screensh](./img/K-044.png)
 
